@@ -37,3 +37,7 @@ def derivative_bi(bu, bi, sample_df, user_, i):
         s = np.sum(np.dot(-2, sample_df["Rating"] - bu[user_[sample_df.index]] - mu - bi[i])) + (2 * alpha * bi[i])
     return s
 ```
+
+you can access data from one of these links:  
+https://www.kaggle.com/netflix-inc/netflix-prize-data  
+https://www.kaggle.com/laowingkin/netflix-movie-recommendation/data
