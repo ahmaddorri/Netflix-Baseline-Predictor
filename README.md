@@ -5,4 +5,4 @@ After this, you can use various type of module like [Surprise](http://surpriseli
 
 But in this project i try to impelemnt baseline predictor of BellKor team (https://www.netflixprize.com/assets/GrandPrize2009_BPC_BellKor.pdf) that try to minimize :
 
-Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
+![alt text](https://user-images.githubusercontent.com/19234324/46571650-81c7fa00-c985-11e8-837e-ebe128ab5b14.PNG)
