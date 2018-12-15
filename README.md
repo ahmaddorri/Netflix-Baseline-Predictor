@@ -2,7 +2,7 @@ Most of Netflix recommender systems use dataframe in this format:
 `(user_id, item_id, rating)`
 but the main dataset of Netflix prize is not in this style so in `PrepareDataframe.py` I attempt to convert the main dataset to   
 `(user_id, item_id, rating)`  
-After this, you can use various type of module like [Surprise](http://surpriselib.com/), [LightFM](https://github.com/lyst/lightfm) for SVD, SVD++, KNN,... an also [tensorrec](https://github.com/jfkirk/tensorrec) and many others.
+After this, you can use various type of module like [Surprise](http://surpriselib.com/), [LightFM](https://github.com/lyst/lightfm) for SVD, SVD++, KNN,... and also [tensorrec](https://github.com/jfkirk/tensorrec) and many others.
 
 But in this project i try to impelemnt baseline predictor of BellKor team (https://www.netflixprize.com/assets/GrandPrize2009_BPC_BellKor.pdf) that try to minimize :
 
